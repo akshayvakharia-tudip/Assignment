@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+#fs1{
+	background-color:powderBlue;
+}
+#fs2{
+	background-color:lightgreen;
+}
+#fs3{
+	background-color:pink;
+}
+.tb2{
+	width:50%
+	padding:5%;
+	border-collapse:collapse;
+	padding-left:20%;
+	padding-right:20%;
+	text-align:center;
+	
+}
+.tb2field{
+	text-align:center;
+}
+
+#pcompany:hover{
+	text-decoration:underline;
+	font-size:120%;
+}
+#div1para{
+	display:inline;
+}
+#div1h1{
+	display:inline;
+}
+#button1:hover{
+	background-color:green;
+	font-size:115%;
+}
+</style>
+</head>
+<body >
+<form action="Submit.html">
+<fieldset id="fs1">
+<legend>Personal Details</legend>
+	<table>
+		<tr>
+			<td>
+				<label for="Name">Name:
+			<td>
+			<td>
+				<input type="text" name="txtName" placeholder="First Name" id="Name" autocomplete="on">
+			</td>
+		</tr>
+		<tr>
+			<td >
+				Gender:
+			<td>
+			<td>
+				<label for="Male">Male <input type="radio" name="sex" value="male" id="Male">
+				<label for="Female">Female <input type="radio" name="sex" value="female" id="Female">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="Email">Email:
+			<td>
+			<td>
+				<input type="email" name="txtEmail" placeholder="abc@pqr.com" autocomplete="off" id="Email">
+			</td>
+		</tr>
+	
+	</table>
+	
+	
+<fieldset id="fs2">
+<legend>Academic Details</legend>
+	<table width=100% class="tb2" >
+		<tr class="tb2">
+			<th class="tb2" align="left">
+				Qualification
+			</th>
+			<th class="tb2" align="left">
+				School/College
+			</th>
+		</tr>
+		<tr class="tb2">
+			<td class="tb2">
+				<input class="tb2field" type="text" name="Quali1" value="10" readonly>
+			</td>
+			<td class="tb2">
+				<input type="text" name="School1" >
+			</td>
+		</tr>
+		<tr class="tb2">
+			<td class="tb2">
+				<input class="tb2field" type="text" name="Quali2" value="12" readonly>
+			</td>
+			<td class="tb2">
+				<input type="text" name="School2">
+			</td>
+		</tr>
+		<tr class="tb2">
+			<td class="tb2">
+				<input class="tb2field" type="text" name="Quali3" value="BE" readonly>
+			</td>
+			<td class="tb2">
+				<input type="text" name="School3">
+			</td>
+		</tr>
+		<tr class="tb2">
+			<td class="tb2">
+				<input class="tb2field" type="text" name="Quali4" value="ME" readonly>
+			</td>
+			<td class="tb2">
+				<input type="text" name="School4">
+			</td>
+		</tr>
+	</table>	
+
+
+</fieldset>
+<fieldset id="fs3">
+<legend>Company Details</legend>
+
+Company Name:<p id="pcompany" style="display:inline;"><b>Tudip Technologies</b></p><br>
+
+<address> Address     :Tudip 4th floor,<br>
+					  Near Pizza Hut,<br>
+					  Wakad	</address>
+<br>
+Position    :<i>Software Engineer</i><br>
+Team Lead   :<b><ins>Amit Sir</ins></b>
+</fieldset>
+<div >
+<p id="div1para">This is paragraph block element</p>
+<h3 id="div1h1">Div tag near another block :)</h3>
+</div>
+
+				<input id="button1" style="margin-left:45%" type="submit" value="Submit" align="Right">
+		
+			
+
+
+</form>
+</body>
+</html>
